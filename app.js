@@ -43,10 +43,11 @@ console.log(a + b);
 
 
 
-let userWeight = prompt("Let your weight");
-let userHeight = prompt("Let your height");
+let userWeight = prompt("Write your weight");
+let userHeight = prompt("Write your height");
 let result = userWeight / (userHeight * userHeight);
 console.log(result);
+
 if (userWeight / (userHeight * userHeight) < 18.5) {
     alert("Under Weight")
 } else if (userWeight / (userHeight * userHeight)  > 18.5 && userWeight / (userHeight * userHeight) < 24.9 ) {
@@ -64,4 +65,3 @@ if (userWeight / (userHeight * userHeight) < 18.5) {
 }
 
 
-// hiiiiiii
